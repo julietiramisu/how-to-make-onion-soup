@@ -1,0 +1,107 @@
+
+
+/*Overall looks*/
+
+body {
+
+	background: #faf8f6; /*Background feels cozy*/
+	font-family: Verdana, sans-serif; /*I like this font*/
+	color: #4d4c4a; /*Text color*/
+	line-height: 1.6;
+	padding: 20px;
+	max-width: 900px;
+	margin: auto; /*Center page content*/
+
+}
+
+/*Title of the page*/
+
+h1 {
+
+	color: #64313e;
+	font-weight: 700;
+	text-align: center; /*Center title looks prettier*/
+	margin-bottom: 20px;
+	font-size: 2.5rem;
+	text-transform: uppercase; /*Make the title uppercase to stand out*/
+	letter-spacing: 2px; /*Better spacing between letters*/
+
+}
+
+/*Sub-headings*/
+
+h2, h3 {
+
+	color: #64313e;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #e2d6cf; /*Put an underline beneath the sub-headings*/
+	display: inline-block;
+	padding-bottom: 3px;
+
+}
+
+/*Paragraphs*/
+
+p {
+
+	margin-bottom: 15px;
+	font-size: 1rem;
+}
+
+/*Images*/
+
+img {
+
+	width: 400px;
+	display: inline-block; /*They stand next to each other*/
+	margin: 15px auto; /*Centers images*/
+	max-width: 100%; /*Photo size can fit nicely either on laptop or mobile phone heehee*/
+
+}
+
+/*Ingredient list and Intructions*/
+
+ul, ol {
+
+	margin-left: 25px;
+	margin-bottom: 15px;
+
+}
+
+li {
+
+	margin-bottom: 8px;
+
+}
+
+/*Links*/
+
+a {
+
+	color: #64313e;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+a:hover { /*Make the link interactive teehee*/
+
+	text-decoration: underline;
+	color: #a05262; 
+
+}
+
+/*Quotes about cooking*/
+
+q {
+
+	font-style: italic;
+	color: #6b6a68;
+	display: block;
+	margin-left: 15px;
+	border-left: 3px solid #d9c8c0;
+	padding-left: 10px;
+
+}
